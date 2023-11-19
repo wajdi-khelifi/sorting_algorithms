@@ -40,4 +40,7 @@ int lomuto(int *array, ssize_t first, ssize_t last, size_t size);
 void quick_s(int *array, ssize_t first, ssize_t last, int size);
 void quick_sort(int *array, size_t size);
 
+/* Task 4 : Shell sort - Knuth Sequence */
+void change(int *array, int elem1, int elem2);
+void shell_sort(int *array, size_t size);
 #endif
