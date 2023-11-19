@@ -87,7 +87,7 @@ Read or watch:
 ## More information
 ### Data Structure and Functions
 - For this project you are given the following print_array, and print_list functions:
-- print array function:
+print array function:
 
 	#include <stdlib.h>
 	#include <stdio.h>
@@ -114,7 +114,7 @@ Read or watch:
 	}
 
 
-- print list function:
+print list function:
 
 	#include <stdio.h>
 	#include "sort.h"
@@ -140,7 +140,7 @@ Read or watch:
 	    printf("\n");
 	}
 
-- Please use the following data structure for doubly linked list:
+Please use the following data structure for doubly linked list:
 
 	/**
 	 * struct listint_s - Doubly linked list node
