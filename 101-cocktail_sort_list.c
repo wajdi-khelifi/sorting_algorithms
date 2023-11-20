@@ -1,11 +1,11 @@
 #include "sort.h"
 /**
- * change_point - change a point for his previous one
+ * change_node - change a point for his previous one
  *@point: node
  *@list: node list
  *Return: return a pointer to a node wich was enter it
  */
-listint_t *change_point(listint_t *point, listint_t **list)
+listint_t *change_node(listint_t *point, listint_t **list)
 {
 	listint_t *back = point->prev, *current = point;
 
@@ -42,7 +42,7 @@ void cocktail_sort_list(listint_t **list)
 		{
 			if (point->n > point->next->n)
 			{
-				point = change_point(point->next, list);
+				point = change_node(point->next, list);
 				ch_done = 1;
 				print_list(*list);
 			}
@@ -55,7 +55,7 @@ void cocktail_sort_list(listint_t **list)
 		{
 			if (point->n < point->prev->n)
 			{
-				point = change_point(point, list);
+				point = change_node(point, list);
 				ch_done = 1;
 				print_list(*list);
 			}
