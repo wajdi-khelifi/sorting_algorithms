@@ -46,5 +46,4 @@ void swap(int *array, int elem1, int elem2);
 
 /* Task 5 : Cocktail shaker sort */
 void cocktail_sort_list(listint_t **list);
-listint_t *change_node(listint_t *point, listint_t **list);
 #endif
