@@ -3,6 +3,7 @@
  *swap - the positions of two elements into an array
  *@array: array
  *@elem1: array elemnt
+ *@elem2: array elemnt
  */
 void swap(int *array, int elem1, int elem2)
 {
